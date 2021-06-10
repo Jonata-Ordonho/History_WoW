@@ -1,0 +1,84 @@
+@media only screen and (max-width: 1080px){
+    body{
+        padding: 10px;
+    }
+
+    #rodape{
+        background-color: rgba(1, 1, 1, 0.6);
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 764px){
+
+    #cabecalho{
+        background-color: rgba(1, 1, 1, 0.6);
+        border-radius: 15px;
+    }
+
+    #cabecalho #logo{
+        width: 250px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    #cabecalho .container{
+        display: block;
+        position: relative;
+    }
+
+    #cabecalho #but-menu{
+        display: block;
+        position: absolute;
+        top: 50px;
+        right: 30px;
+    }
+
+    #cabecalho #menu{
+        display: none;
+    }
+
+    #cabecalho #menu ul{
+        background-color: rgba(1, 1, 1, 0);
+    }
+
+    #cabecalho #menu ul li{
+        display: block;
+        border-bottom: 1px solid #666;
+    }
+
+    #box-index #grid-fac{
+        grid-gap: 0px;
+    }
+
+    /*Internas*/
+
+    #box .container{
+        background: rgba(0, 0, 0, 0.6);   
+    }
+
+    .container #videos{
+        grid-template-columns: 1fr;
+    }
+
+    /*internas facções*/
+
+    #box .img-raca{
+        width: 100%;
+        height: 125px;
+    }
+}
+
+@media only screen and (max-width: 390px){
+
+    #cabecalho #logo{
+        padding-bottom: 65px;
+        z-index: 5;
+    }
+
+    #cabecalho #but-menu{
+        top: 164px;
+        right: 45%;
+        z-index: 6;
+    }
+}
